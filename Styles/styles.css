@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+h3 {
+    text-align: left;
+}
+
+.hero-image {
+    margin: 0;
+    padding: 0;
+}
+
+.introduction {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.section-1 {
+    background-color: aliceblue;
+}
+
+.section-2 {
+    background-color: aqua;
+}
+/*section 3 */
+
+.section-3 {
+    background-color: aliceblue;
+    max-width: 100%;
+}
+
+.ingredients ul li {
+    max-width: 100%;
+}
+
+.instructions {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    clear: both;
+}
+
+/*end of section 3 */
+.section-5 {
+    background-color: aliceblue ;
+}
+
+.container-1 {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+footer {
+    background-color: azure;
+}

@@ -1,61 +1,78 @@
 body {
-    margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    margin: 0;
+    background-color: #b8c1ca;
 }
 
+.jumbotron {
+    background-color: #248999;
+}
+
+.jumbotron h1 {
+        font-family: Trade Winds;
+        text-align: center;
+        color: white;
+}
 
 h3 {
-    text-align: left;
-}
-
-.hero-image {
-    margin: 0;
-    padding: 0;
-}
-
-.introduction {
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-}
-
-
-.section-1 {
-    background-color: aliceblue;
+    font-family: Trade Winds; 
 }
 
 .section-2 {
-    background-color: aqua;
+    background-color: #b8c1ca;
 }
-/*section 3 */
+
+.section-3 h3 {
+    padding-left: 30px;
+    color: white;
+}
 
 .section-3 {
-    background-color: aliceblue;
-    max-width: 100%;
-}
-
-.ingredients ul li {
-    max-width: 100%;
+    background-color: #477d86; 
+    color: white;
+    
 }
 
 .instructions {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    clear: both;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: white;
 }
 
-/*end of section 3 */
-.section-5 {
-    background-color: aliceblue ;
+.container {
+    padding-top: 20px;
+    font-size: 20px;
 }
 
 .container-1 {
-    background-color: aqua;
-    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b8c1ca;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+
+.sec {
+    background-color: #477d86;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec h3 {
+    text-align: center;
+    padding-right: 10px;
+    color: white;
 }
 
 footer {
-    background-color: azure;
+    background-color: black;
+    color: white;
 }

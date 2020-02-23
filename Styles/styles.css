@@ -4,6 +4,13 @@ body {
     background-color: #b8c1ca;
 }
 
+#navbarSupportedContent ul li {
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
 .jumbotron {
     background-color: #248999;
 }
@@ -14,8 +21,13 @@ body {
         color: white;
 }
 
+.hero-image {
+    border: 10px solid white;
+}
+
 h3 {
-    font-family: Trade Winds; 
+    font-family: Trade Winds;
+    font-size: 40px; 
 }
 
 .section-2 {
@@ -39,17 +51,33 @@ h3 {
     padding-bottom: 20px;
     font-size: 18px;
     color: white;
+    font-weight: bold;
 }
+
 
 .container {
     padding-top: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .container-1 {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #b8c1ca;
+}
+
+.container-1 #discrip p {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold
 }
 
 .video {

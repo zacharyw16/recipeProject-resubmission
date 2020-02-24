@@ -19,7 +19,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <header><nav class="navbar navbar-expand-lg navbar-light style=background:#000000;">
+      <header><nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img src="images/logo.jpg" alt="my logo" width="100px" height="50px">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,23 +28,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Learn</a>
+              <a class="nav-link" href="#middle">Recipe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">option3</a>
+              <a class="nav-link" href="#discrip">technique</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Video</a>
+              <a class="nav-link" href="#bottom">Video</a>
             </li>
           </ul>
         </div>
       </nav></header>
       <!--section 1-->
         <section>
-            <div class="jumbotron wow bounceInDown">
+            <div id="top" class="jumbotron wow bounceInDown">
                 <h1 class="display-4">chicken marsala</h1><p style="text-align: center; color: white;"><b>For an Italian favorite, try Tyler Florence's Chicken Marsala recipe.</b></p>
             </div>
         </section>
@@ -56,7 +56,7 @@
                         <div class="col-md-6 col-sm-12">
                           <!--hero image-->
                             <figure>
-                              <div class="hero-image"><img src="images/img1.jpg" alt="chicken marsala main image" width="521px" height="500px"></div>
+                              <div class="hero-image"><img src="images/img1.jpg" alt="chicken marsala main image" class="img-fluid"></div>
                                <figcaption><p><b>Chicken Marsala at its finest</b></p></figcaption>
                               </figure>
                             </div>
@@ -100,15 +100,25 @@
                       </tbody>
                     </table>
                   </div>
+                  <br>
+                  <div class="tyler">
+                    <figure>
+                      <img src="images/tyler.jpg" class="img-fluid" >
+                      <figcaption>
+                        World famous celebrity chef,Tyler Florence.
+                      </figcaption>
+                    </figure>
+                  </div>
                 </div>
               </div>
                         </div>
                       </div>
                     </div>
+                    
             </section>
         </div>
         <!--section 3-->
-        <div class="section-3">
+        <div id="middle" class="section-3">
             <section>
              <div class="container">
                <div class="row" >
@@ -170,8 +180,21 @@
           </div>
           <hr>
           <div id="discrip">
-            <p>Nothing says fast and fancy quite like the Italian-American dish of chicken Marsala. A menu staple no matter the restaurant, this dish has seen its fair share of revisions. No matter the update, the pairing of golden, pan-fried chicken with a mushroom-studded Marsala wine sauce hasn’t changed. We’re throwing our hat in the ring with a version we just can’t stop swooning over. With creamy sauce spiked with lots of garlic and, of course, the namesake Marsala wine, this take on chicken Marsala is next-level good.
-              And while it might sound like a dish that requires hours of cooking, it is actually a super-fast, one-pan chicken dinner that is perfect for weeknight cooking.</p>
+            <div class="container-1" class="footer wow fadeInUp">
+              <div class="row text-center">
+                 <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" >
+                  <h4><u>Preparing mushrooms</u></h4>
+                  <p>Cook the sauce in the same pan as the chicken. Don’t get rid of any chicken bits from the pan as they add tons of flavour into the sauce! Scrape them up while the mushrooms are releasing their liquid.</p>
+                  </div>
+                 <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp">
+                  <h4><u>Preparing chicken fillets</u></h4>
+                  <p>You’re going to start with thin breast fillets. For a faster prep-time, cut your chicken breasts in half horizontally to make four fillets. Quicker and easier than pounding them thin with a meat mallet and yields the same results.</p>
+                  </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp">
+                      <h4><u>Serving</u></h4>
+                      <p>This Marsala recipe makes enough creamy sauce to pour over pasta (angel hair is the preferred choice), potatoes or rice, or keep it lower in calories and enjoy over cauliflower rice or zucchini noodles!</p>
+                  </div>
+                </div>
           </div>
           
           </section>
@@ -179,8 +202,8 @@
         <section>
           <div class="sec wow bounceInDown">
             <h3>Creamy Chicken Marsala Guide:</h3>
-            <div class="video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/GVj-pNVtnr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="bottom" class="video">
+              <iframe width="100%" height="250px" src="https://www.youtube.com/embed/GVj-pNVtnr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
               </div>
           </div>
         </section>

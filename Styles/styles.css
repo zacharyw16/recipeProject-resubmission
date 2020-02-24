@@ -7,7 +7,6 @@ body {
 #navbarSupportedContent ul li {
     padding-left: 50px;
     font-size: 18px;
-    font-weight: bold;
     color: white;
 }
 
@@ -23,6 +22,7 @@ body {
 
 .hero-image {
     border: 10px solid white;
+    width: 100%;
 }
 
 h3 {
@@ -46,19 +46,17 @@ h3 {
 }
 
 .instructions {
-    margin-left: 70px;
+    margin-left: auto;
     margin-right: 70px;
     padding-bottom: 20px;
     font-size: 18px;
     color: white;
-    font-weight: bold;
 }
 
 
 .container {
     padding-top: 20px;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .container-1 {
@@ -71,20 +69,22 @@ h3 {
     margin-left: 70px;
     margin-right: 70px;
     font-size: 18px;
-    font-weight: bold;
 }
+
+.tyler {
+    width: 100%;
+    border: 10px solid white;
 
 .container-2 {
     color: white;
     font-size: 18px;
-    font-weight: bold
 }
 
 .video {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
     
 }
 
@@ -97,10 +97,17 @@ h3 {
 .sec h3 {
     text-align: center;
     padding-right: 10px;
+    
     color: white;
 }
 
+#discrip h4 {
+    font-family: Trade Winds;
+}
+
 footer {
-    background-color: black;
-    color: white;
+    background-color: #bad7dc;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
